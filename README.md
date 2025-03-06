@@ -102,8 +102,8 @@ for detailed help on available commands and arguments.
 
 ## Logging and Error Handling
 
--    Logging: Critical steps (dataset loading, preprocessing, training) are logged. Check the console output for progress and error messages.
--    Error Handling: The script uses try/except blocks to catch and log exceptions. If an error occurs, an appropriate message is printed and the script exits gracefully.
+-    **Logging:** Critical steps (dataset loading, preprocessing, training) are logged. Check the console output for progress and error messages.
+-    **Error Handling:** The script uses try/except blocks to catch and log exceptions. If an error occurs, an appropriate message is printed and the script exits gracefully.
 
 ## Troubleshooting
 
