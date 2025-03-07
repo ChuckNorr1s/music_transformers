@@ -79,11 +79,24 @@ The script provides two subcommands: ```prepare``` and ```train```.
 To load your raw audio data from a folder and save it in Arrow format, run:
 
    ```bash
-   python main.py prepare --data_dir ./dataset --output_dir ./music
+   python main.py prepare --data_dir ./your_dataset_dir --output_dir ./music
    ```
 
 - ```--data_dir:``` Directory containing your raw audio data.
 - ```--output_dir:``` Directory where the prepared dataset will be saved.
+
+**⚠ Dataset folder should be in the following format for optimal results:**
+  
+```bash
+/dataset/train/pop/file.mp3
+/dataset/train/pop/file1.mp3
+. . .
+/dataset/train/techno/file.mp3
+/dataset/train/techno/file1.mp3
+. . .
+/dataset/train/afro/file.mp3
+/dataset/train/afro/file1.mp3
+```
 
 ### Train the Model
 
