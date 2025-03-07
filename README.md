@@ -107,7 +107,7 @@ for detailed help on available commands and arguments.
 
 ## Troubleshooting
 
--    Dataset Loading Errors: Ensure your data_dir has the expected structure for the audiofolder loader.
+-    Dataset Loading Errors: Ensure your ```data_dir``` has the expected structure for the ```audiofolder``` loader.
 -    Dependency Issues: Verify that all required libraries are installed and compatible with your Python version.
 -    GPU/FP16 Issues: If you encounter issues with fp16 training, try running without the ```--fp16``` flag.
 -    Process Configuration: Adjust the ```--num_proc``` parameter if you encounter performance issues during dataset mapping.
