@@ -55,10 +55,17 @@ The pipeline leverages the Hugging Face ecosystem to provide a robust training p
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
+   
 3. **Install Dependencies:**
 
    ```bash
    pip install -r requirements.txt
+   ```
+   
+4. **HuggingFace Login:**
+
+   ```bash
+   huggingface-cli login
    ```
    
 ## Usage
