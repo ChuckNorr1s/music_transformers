@@ -1,4 +1,6 @@
-# A.T.C.T.P.F.M.G.C. - Audio Transformers Classification Training Pipeline For Music Genre Classification ⚠️WORK IN PROGRESS⚠️
+# A.T.C.T.P.F.M.G.C. - Audio Transformers Classification Training Pipeline For Music Genre Classification 
+
+# ⚠️WORK IN PROGRESS⚠️
 
 This repository provides a production-ready pipeline for audio classification using Hugging Face's Transformers and Datasets libraries. The pipeline is divided into two main parts:
 
